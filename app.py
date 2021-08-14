@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello Flask!</p>"
+    return "<p>Hello Flask! Heroku.</p>"
 
 @app.route("/gallery")
 def gallery():
